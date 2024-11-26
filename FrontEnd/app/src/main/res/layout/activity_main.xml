@@ -5,15 +5,81 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottomNav"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:background="#46B1E1"
+
+            android:padding="0dp"
+            app:itemIconTint="#ffffff"
+            app:labelVisibilityMode="selected"
+            app:itemIconSize="24dp"
+            app:itemPaddingTop="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+
+            app:menu="@menu/menu_bottom_nav" />
+
+        <FrameLayout
+            android:id="@+id/frameLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <FrameLayout
+                    android:id="@+id/SportCenterList"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#46B1E1">
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="20dp"
+                        android:gravity="center|left"
+                        android:text="내 주변 운동 시설(목록형)" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/SportCenterMap"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <com.kakao.vectormap.MapView
+                        android:layout_width="match_parent"
+                        android:layout_height="300dp" />
+
+                </FrameLayout>
+
+
+            </LinearLayout>
+        </FrameLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

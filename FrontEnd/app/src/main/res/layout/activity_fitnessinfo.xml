@@ -26,8 +26,8 @@
 
             android:padding="0dp"
             app:itemIconTint="#ffffff"
-            app:labelVisibilityMode="selected"
-            app:itemIconSize="24dp"
+            app:labelVisibilityMode="unlabeled"
+            app:itemIconSize="40dp"
             app:itemPaddingTop="0dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -51,7 +51,7 @@
                 android:orientation="vertical">
 
                 <FrameLayout
-                    android:id="@+id/SportCenterList"
+                    android:id="@+id/Label"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="#46B1E1">
@@ -63,6 +63,27 @@
                         android:layout_marginLeft="20dp"
                         android:gravity="center|left"
                         android:text="내 주변 운동 시설(목록형)" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical" >
+
+                            <androidx.recyclerview.widget.RecyclerView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent" />
+                        </LinearLayout>
+
+                    </ScrollView>
                 </FrameLayout>
 
                 <FrameLayout

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/register"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+
+    <!--회원가입 전체 레이아웃-->
+    <LinearLayout
+        android:id="@+id/LL_register"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <!--회원가입 텍스트-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            android:background="#46B1E1"
+            android:gravity="center_vertical"
+            android:text="회원가입"
+            android:paddingLeft="30dp"
+            android:textColor="#F5F5F5"
+            android:textSize="24dp"
+            tools:ignore="MissingConstraints" />
+
+        <!--회원가입 입력 레이아웃-->
+        <LinearLayout
+            android:id="@+id/LinearLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:paddingLeft="27dp">
+
+            <!--회원가입 아이디 입력창 (길이230)-->
+            <EditText
+                android:id="@+id/et_inputid"
+                android:layout_width="230dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/buttno2_all_round"
+                android:hint="ID"
+                android:inputType="text"
+                android:paddingLeft="15dp"
+                android:textColor="#F5F5F5"
+                android:textColorHint="#D0F5F5F5"
+                android:textSize="20dp" />
+
+            <!--중복확인 버튼 (중간 마진15, 길이110)-->
+            <Button
+                android:id="@+id/btn_check"
+                android:layout_width="110dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/buttno2_all_round"
+                android:text="중복확인"
+                android:textColor="#F5F5F5"
+                android:textSize="17dp" />
+        </LinearLayout>
+
+        <!--비밀번호 입력창(총길이 355)  -->
+        <EditText
+            android:id="@+id/et_inputpw"
+            android:layout_width="355dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="27dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/buttno2_all_round"
+            android:hint="Password (영어, 숫자, 특수기호 포함 10자 이상)"
+            android:inputType="text"
+            android:paddingLeft="15dp"
+            android:textColor="#F5F5F5"
+            android:textColorHint="#D0F5F5F5"
+            android:textSize="20dp" />
+
+        <!--사용자 이름 입력창(총길이 315)  -->
+        <EditText
+            android:id="@+id/et_inputname"
+            android:layout_width="355dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="27dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/buttno2_all_round"
+            android:hint="Name (꼭 실명으로 입력해주세요)"
+            android:inputType="text"
+            android:paddingLeft="15dp"
+            android:textColor="#F5F5F5"
+            android:textColorHint="#D0F5F5F5"
+            android:textSize="20dp" />
+
+        <!--생년월일 입력창(총길이 315)  -->
+        <EditText
+            android:id="@+id/et_inputbirth"
+            android:layout_width="355dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="27dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/buttno2_all_round"
+            android:hint="생년월일 (YYYY/MM/DD)"
+            android:focusable="false"
+            android:clickable="true"
+            android:paddingLeft="15dp"
+            android:textColor="#F5F5F5"
+            android:textColorHint="#D0F5F5F5"
+            android:textSize="20dp" />
+
+        안드로이드 스튜디오에서 아래 코드를 바탕으로 자바언어를 이용해 json 데이터를 보내는 코드를 구현해줘
+        <!--장애 여부 선택 창-->
+        <RadioGroup
+            android:id="@+id/rg_hadicap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="50dp">
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="장애 비장애 여부"
+                android:textColor="#000000"
+                android:textSize="17dp" />
+
+            <RadioButton
+                android:id="@+id/btn_handicap"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:paddingLeft="20dp"
+                android:text="장애"
+                android:textSize="17dp" />
+
+            <RadioButton
+                android:id="@+id/btn_nonhandicap"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:text="비장애"
+                android:textSize="17dp" />
+        </RadioGroup>
+
+        <!--회원가입하기(하단) 버튼(레이아웃)-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="bottom">
+            <Button
+                android:id="@+id/btn_regfinish"
+                android:layout_width="match_parent"
+                android:layout_height="85dp"
+                android:background="#46B1E1"
+                android:gravity="center_vertical"
+                android:text="회원가입 하기"
+                android:paddingLeft="50dp"
+                android:textColor="#E2F5F5F5"
+                android:textSize="20dp"
+                tools:ignore="MissingConstraints" />
+        </LinearLayout>
+
+    <!--전체 레이아웃 종료-->
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

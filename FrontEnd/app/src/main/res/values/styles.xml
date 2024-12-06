@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CustomDatePickerTheme" parent="Theme.MaterialComponents.DayNight.Dialog">
+        <item name="colorPrimary">#46B1E1</item>
+        <item name="colorPrimaryVariant">#46B1E1</item>
+        <item name="colorOnPrimary">#F5F5F5</item>
+        <item name="android:datePickerMode">calendar</item>
+    </style>
+</resources>

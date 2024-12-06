@@ -13,12 +13,28 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Aecpple"
+        android:usesCleartextTraffic="true"
         tools:targetApi="31">
         <activity
-            android:name=".MakeAccount"
+            android:name=".FindPWActivity"
             android:exported="false" />
         <activity
-            android:name=".LoginActivity"
+            android:name=".FindIDActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FoundAccountActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ChangeAccountActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MyAccountActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FitnessInFo"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

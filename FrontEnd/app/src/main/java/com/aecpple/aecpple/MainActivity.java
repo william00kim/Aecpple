@@ -40,14 +40,14 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        Button findaccountButton = (Button) findViewById(R.id.btn_findaccount);
-        findaccountButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intentFindAccount= new Intent(MainActivity.this,FoundAccountActivity.class);
-                startActivity(intentFindAccount);
-            }
-        });
+//        Button findaccountButton = (Button) findViewById(R.id.btn_findaccount);
+//        findaccountButton.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                Intent intentFindAccount= new Intent(MainActivity.this,FoundAccountActivity.class);
+//                startActivity(intentFindAccount);
+//            }
+//        });
 
         Button LoginButton = findViewById(R.id.login_btn);
         LoginButton.setOnClickListener(new View.OnClickListener() {
@@ -55,7 +55,15 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 String userid = USER_ID.getText().toString();
                 String pass = PASSWORD.getText().toString();
-                SendLoginDataToServer(userid, pass);
+
+                Log.w("asd", "name" + userid + "1");
+                Log.w("asd", "pass" + pass + "2");
+
+                if(!userid.isEmpty() && !pass.isEmpty()) {
+                    SendLoginDataToServer(userid, pass);
+                } else {
+                    Toast.makeText(MainActivity.this, "아이디, 비밀번호를 확인하세요", Toast.LENGTH_SHORT).show();
+                }
             }
         });
     }
@@ -81,9 +89,11 @@ public class MainActivity extends AppCompatActivity {
                     Log.d("Retrofit", "Data sent successfully!: " + data);
                     if(data.equals("로그인 성공.") ) {
                         Intent intent= new Intent(MainActivity.this, FitnessInFo.class);
+                        intent.putExtra("ID", USER_ID);
                         startActivity(intent);
+                        finish();
                     } else if(data.equals("로그인 실패.")) {
-                        Toast.makeText(MainActivity.this, "아이디, 비밀번호를 확인하세요", 3).show();
+                        Toast.makeText(MainActivity.this, "아이디, 비밀번호를 확인하세요", Toast.LENGTH_SHORT).show();
                     }
                 } else {
                     Log.d("Retrofit", "Failed: " + response.code());

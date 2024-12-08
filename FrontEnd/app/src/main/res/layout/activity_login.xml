@@ -93,23 +93,23 @@
                 android:textSize="17dp" />
 
             <!--구분선-->
-            <View
-                android:id="@+id/RegDivider"
-                android:layout_width="1dp"
-                android:layout_height="17dp"
-                android:layout_marginTop="17dp"
-                android:layout_weight="1"
-                android:background="#F5F5F5" />
+<!--            <View-->
+<!--                android:id="@+id/RegDivider"-->
+<!--                android:layout_width="1dp"-->
+<!--                android:layout_height="17dp"-->
+<!--                android:layout_marginTop="17dp"-->
+<!--                android:layout_weight="1"-->
+<!--                android:background="#F5F5F5" />-->
 
-            <!--계정찾기 클릭-->
-            <Button
-                android:id="@+id/btn_findaccount"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="#00000000"
-                android:text="계정 찾기"
-                android:textColor="#F5F5F5"
-                android:textSize="17dp" />
+<!--            &lt;!&ndash;계정찾기 클릭&ndash;&gt;-->
+<!--            <Button-->
+<!--                android:id="@+id/btn_findaccount"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:background="#00000000"-->
+<!--                android:text="계정 찾기"-->
+<!--                android:textColor="#F5F5F5"-->
+<!--                android:textSize="17dp" />-->
 
         </LinearLayout>
 

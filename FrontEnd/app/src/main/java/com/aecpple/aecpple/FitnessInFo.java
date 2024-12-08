@@ -145,11 +145,11 @@ public class FitnessInFo extends AppCompatActivity {
                 startActivity(intent);
                 return true;
             } else if(item.getItemId() == R.id.Menu_List) {
-
                 Intent intent = new Intent(this, FitnessInFoList.class);
                 intent.putExtra("Handistatus", HandiNum);
                 intent.putExtra("ID", ID);
                 startActivity(intent);
+                finish();
                 return true;
             }
             return false;

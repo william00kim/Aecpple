@@ -1,0 +1,54 @@
+[
+    {
+        "merged": "/Users/kimjonghyeon/.gradle/daemon/8.7/com.aecpple.aecpple.app-mergeDebugResources-33:/layout/activity_my_info.xml",
+        "source": "/Users/kimjonghyeon/.gradle/daemon/8.7/com.aecpple.aecpple.app-main-36:/layout/activity_my_info.xml"
+    },
+    {
+        "merged": "com.aecpple.aecpple.app-mergeDebugResources-33:/layout/activity_register.xml",
+        "source": "com.aecpple.aecpple.app-main-36:/layout/activity_register.xml"
+    },
+    {
+        "merged": "com.aecpple.aecpple.app-mergeDebugResources-33:/layout/activity_login.xml",
+        "source": "com.aecpple.aecpple.app-main-36:/layout/activity_login.xml"
+    },
+    {
+        "merged": "/Users/kimjonghyeon/.gradle/daemon/8.7/com.aecpple.aecpple.app-mergeDebugResources-33:/layout/activity_fitnessinfolist.xml",
+        "source": "/Users/kimjonghyeon/.gradle/daemon/8.7/com.aecpple.aecpple.app-main-36:/layout/activity_fitnessinfolist.xml"
+    },
+    {
+        "merged": "/Users/kimjonghyeon/.gradle/daemon/8.7/com.aecpple.aecpple.app-mergeDebugResources-33:/layout/activity_my_account.xml",
+        "source": "/Users/kimjonghyeon/.gradle/daemon/8.7/com.aecpple.aecpple.app-main-36:/layout/activity_my_account.xml"
+    },
+    {
+        "merged": "/Users/kimjonghyeon/.gradle/daemon/8.7/com.aecpple.aecpple.app-mergeDebugResources-33:/layout/activity_register.xml",
+        "source": "/Users/kimjonghyeon/.gradle/daemon/8.7/com.aecpple.aecpple.app-main-36:/layout/activity_register.xml"
+    },
+    {
+        "merged": "/Users/kimjonghyeon/.gradle/daemon/8.7/com.aecpple.aecpple.app-mergeDebugResources-33:/layout/activity_find_idactivity.xml",
+        "source": "/Users/kimjonghyeon/.gradle/daemon/8.7/com.aecpple.aecpple.app-main-36:/layout/activity_find_idactivity.xml"
+    },
+    {
+        "merged": "/Users/kimjonghyeon/.gradle/daemon/8.7/com.aecpple.aecpple.app-mergeDebugResources-33:/layout/activity_login.xml",
+        "source": "/Users/kimjonghyeon/.gradle/daemon/8.7/com.aecpple.aecpple.app-main-36:/layout/activity_login.xml"
+    },
+    {
+        "merged": "/Users/kimjonghyeon/.gradle/daemon/8.7/com.aecpple.aecpple.app-mergeDebugResources-33:/layout/activity_found_account.xml",
+        "source": "/Users/kimjonghyeon/.gradle/daemon/8.7/com.aecpple.aecpple.app-main-36:/layout/activity_found_account.xml"
+    },
+    {
+        "merged": "/Users/kimjonghyeon/.gradle/daemon/8.7/com.aecpple.aecpple.app-mergeDebugResources-33:/layout/item_recyclerview_sportlist.xml",
+        "source": "/Users/kimjonghyeon/.gradle/daemon/8.7/com.aecpple.aecpple.app-main-36:/layout/item_recyclerview_sportlist.xml"
+    },
+    {
+        "merged": "/Users/kimjonghyeon/.gradle/daemon/8.7/com.aecpple.aecpple.app-mergeDebugResources-33:/layout/activity_find_pwactivity.xml",
+        "source": "/Users/kimjonghyeon/.gradle/daemon/8.7/com.aecpple.aecpple.app-main-36:/layout/activity_find_pwactivity.xml"
+    },
+    {
+        "merged": "/Users/kimjonghyeon/.gradle/daemon/8.7/com.aecpple.aecpple.app-mergeDebugResources-33:/layout/activity_fitnessinfo.xml",
+        "source": "/Users/kimjonghyeon/.gradle/daemon/8.7/com.aecpple.aecpple.app-main-36:/layout/activity_fitnessinfo.xml"
+    },
+    {
+        "merged": "/Users/kimjonghyeon/.gradle/daemon/8.7/com.aecpple.aecpple.app-mergeDebugResources-33:/layout/activity_change_account.xml",
+        "source": "/Users/kimjonghyeon/.gradle/daemon/8.7/com.aecpple.aecpple.app-main-36:/layout/activity_change_account.xml"
+    }
+]

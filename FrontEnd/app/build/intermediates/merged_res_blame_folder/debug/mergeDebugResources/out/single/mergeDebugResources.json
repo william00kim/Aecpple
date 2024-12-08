@@ -1,0 +1,230 @@
+[
+    {
+        "merged": "/Users/kimjonghyeon/.gradle/daemon/8.7/com.aecpple.aecpple.app-debug-34:/drawable_buttno_all_round.xml.flat",
+        "source": "/Users/kimjonghyeon/.gradle/daemon/8.7/com.aecpple.aecpple.app-main-36:/drawable/buttno_all_round.xml"
+    },
+    {
+        "merged": "/Users/kimjonghyeon/.gradle/daemon/8.7/com.aecpple.aecpple.app-debug-34:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/kimjonghyeon/.gradle/daemon/8.7/com.aecpple.aecpple.app-main-36:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.aecpple.aecpple.app-debug-34:/drawable_fitforyou_background.xml.flat",
+        "source": "com.aecpple.aecpple.app-main-36:/drawable/fitforyou_background.xml"
+    },
+    {
+        "merged": "/Users/kimjonghyeon/.gradle/daemon/8.7/com.aecpple.aecpple.app-debug-34:/drawable_buttno3_button.xml.flat",
+        "source": "/Users/kimjonghyeon/.gradle/daemon/8.7/com.aecpple.aecpple.app-main-36:/drawable/buttno3_button.xml"
+    },
+    {
+        "merged": "com.aecpple.aecpple.app-debug-34:/mipmap-xxhdpi_fitforyou_foreground.webp.flat",
+        "source": "com.aecpple.aecpple.app-main-36:/mipmap-xxhdpi/fitforyou_foreground.webp"
+    },
+    {
+        "merged": "/Users/kimjonghyeon/.gradle/daemon/8.7/com.aecpple.aecpple.app-debug-34:/layout_activity_find_pwactivity.xml.flat",
+        "source": "/Users/kimjonghyeon/.gradle/daemon/8.7/com.aecpple.aecpple.app-main-36:/layout/activity_find_pwactivity.xml"
+    },
+    {
+        "merged": "/Users/kimjonghyeon/.gradle/daemon/8.7/com.aecpple.aecpple.app-debug-34:/xml_backup_rules.xml.flat",
+        "source": "/Users/kimjonghyeon/.gradle/daemon/8.7/com.aecpple.aecpple.app-main-36:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.aecpple.aecpple.app-debug-34:/mipmap-xxxhdpi_fitforyou_round.webp.flat",
+        "source": "com.aecpple.aecpple.app-main-36:/mipmap-xxxhdpi/fitforyou_round.webp"
+    },
+    {
+        "merged": "/Users/kimjonghyeon/.gradle/daemon/8.7/com.aecpple.aecpple.app-debug-34:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/kimjonghyeon/.gradle/daemon/8.7/com.aecpple.aecpple.app-main-36:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/kimjonghyeon/.gradle/daemon/8.7/com.aecpple.aecpple.app-debug-34:/layout_activity_fitnessinfolist.xml.flat",
+        "source": "/Users/kimjonghyeon/.gradle/daemon/8.7/com.aecpple.aecpple.app-main-36:/layout/activity_fitnessinfolist.xml"
+    },
+    {
+        "merged": "/Users/kimjonghyeon/.gradle/daemon/8.7/com.aecpple.aecpple.app-debug-34:/layout_activity_login.xml.flat",
+        "source": "/Users/kimjonghyeon/.gradle/daemon/8.7/com.aecpple.aecpple.app-main-36:/layout/activity_login.xml"
+    },
+    {
+        "merged": "/Users/kimjonghyeon/.gradle/daemon/8.7/com.aecpple.aecpple.app-debug-34:/xml_data_extraction_rules.xml.flat",
+        "source": "/Users/kimjonghyeon/.gradle/daemon/8.7/com.aecpple.aecpple.app-main-36:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "/Users/kimjonghyeon/.gradle/daemon/8.7/com.aecpple.aecpple.app-debug-34:/layout_activity_change_account.xml.flat",
+        "source": "/Users/kimjonghyeon/.gradle/daemon/8.7/com.aecpple.aecpple.app-main-36:/layout/activity_change_account.xml"
+    },
+    {
+        "merged": "/Users/kimjonghyeon/.gradle/daemon/8.7/com.aecpple.aecpple.app-debug-34:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/kimjonghyeon/.gradle/daemon/8.7/com.aecpple.aecpple.app-main-36:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/Users/kimjonghyeon/.gradle/daemon/8.7/com.aecpple.aecpple.app-debug-34:/drawable_buttno2_all_round.xml.flat",
+        "source": "/Users/kimjonghyeon/.gradle/daemon/8.7/com.aecpple.aecpple.app-main-36:/drawable/buttno2_all_round.xml"
+    },
+    {
+        "merged": "/Users/kimjonghyeon/.gradle/daemon/8.7/com.aecpple.aecpple.app-debug-34:/drawable_radius.xml.flat",
+        "source": "/Users/kimjonghyeon/.gradle/daemon/8.7/com.aecpple.aecpple.app-main-36:/drawable/radius.xml"
+    },
+    {
+        "merged": "com.aecpple.aecpple.app-debug-34:/mipmap-xhdpi_fitforyou.webp.flat",
+        "source": "com.aecpple.aecpple.app-main-36:/mipmap-xhdpi/fitforyou.webp"
+    },
+    {
+        "merged": "/Users/kimjonghyeon/.gradle/daemon/8.7/com.aecpple.aecpple.app-debug-34:/drawable_user.xml.flat",
+        "source": "/Users/kimjonghyeon/.gradle/daemon/8.7/com.aecpple.aecpple.app-main-36:/drawable/user.xml"
+    },
+    {
+        "merged": "/Users/kimjonghyeon/.gradle/daemon/8.7/com.aecpple.aecpple.app-debug-34:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/kimjonghyeon/.gradle/daemon/8.7/com.aecpple.aecpple.app-main-36:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/kimjonghyeon/.gradle/daemon/8.7/com.aecpple.aecpple.app-debug-34:/layout_activity_my_info.xml.flat",
+        "source": "/Users/kimjonghyeon/.gradle/daemon/8.7/com.aecpple.aecpple.app-main-36:/layout/activity_my_info.xml"
+    },
+    {
+        "merged": "com.aecpple.aecpple.app-debug-34:/mipmap-xxxhdpi_fitforyou.webp.flat",
+        "source": "com.aecpple.aecpple.app-main-36:/mipmap-xxxhdpi/fitforyou.webp"
+    },
+    {
+        "merged": "com.aecpple.aecpple.app-debug-34:/mipmap-hdpi_fitforyou_round.webp.flat",
+        "source": "com.aecpple.aecpple.app-main-36:/mipmap-hdpi/fitforyou_round.webp"
+    },
+    {
+        "merged": "/Users/kimjonghyeon/.gradle/daemon/8.7/com.aecpple.aecpple.app-debug-34:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/kimjonghyeon/.gradle/daemon/8.7/com.aecpple.aecpple.app-main-36:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/kimjonghyeon/.gradle/daemon/8.7/com.aecpple.aecpple.app-debug-34:/layout_activity_found_account.xml.flat",
+        "source": "/Users/kimjonghyeon/.gradle/daemon/8.7/com.aecpple.aecpple.app-main-36:/layout/activity_found_account.xml"
+    },
+    {
+        "merged": "com.aecpple.aecpple.app-debug-34:/mipmap-anydpi-v26_fitforyou.xml.flat",
+        "source": "com.aecpple.aecpple.app-main-36:/mipmap-anydpi-v26/fitforyou.xml"
+    },
+    {
+        "merged": "com.aecpple.aecpple.app-debug-34:/mipmap-mdpi_fitforyou_foreground.webp.flat",
+        "source": "com.aecpple.aecpple.app-main-36:/mipmap-mdpi/fitforyou_foreground.webp"
+    },
+    {
+        "merged": "com.aecpple.aecpple.app-debug-34:/mipmap-xxxhdpi_fitforyou_foreground.webp.flat",
+        "source": "com.aecpple.aecpple.app-main-36:/mipmap-xxxhdpi/fitforyou_foreground.webp"
+    },
+    {
+        "merged": "/Users/kimjonghyeon/.gradle/daemon/8.7/com.aecpple.aecpple.app-debug-34:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/kimjonghyeon/.gradle/daemon/8.7/com.aecpple.aecpple.app-main-36:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/kimjonghyeon/.gradle/daemon/8.7/com.aecpple.aecpple.app-debug-34:/drawable_buttno4.xml.flat",
+        "source": "/Users/kimjonghyeon/.gradle/daemon/8.7/com.aecpple.aecpple.app-main-36:/drawable/buttno4.xml"
+    },
+    {
+        "merged": "/Users/kimjonghyeon/.gradle/daemon/8.7/com.aecpple.aecpple.app-debug-34:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "/Users/kimjonghyeon/.gradle/daemon/8.7/com.aecpple.aecpple.app-main-36:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/kimjonghyeon/.gradle/daemon/8.7/com.aecpple.aecpple.app-debug-34:/layout_activity_my_account.xml.flat",
+        "source": "/Users/kimjonghyeon/.gradle/daemon/8.7/com.aecpple.aecpple.app-main-36:/layout/activity_my_account.xml"
+    },
+    {
+        "merged": "/Users/kimjonghyeon/.gradle/daemon/8.7/com.aecpple.aecpple.app-debug-34:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "/Users/kimjonghyeon/.gradle/daemon/8.7/com.aecpple.aecpple.app-main-36:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/Users/kimjonghyeon/.gradle/daemon/8.7/com.aecpple.aecpple.app-debug-34:/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/kimjonghyeon/.gradle/daemon/8.7/com.aecpple.aecpple.app-main-36:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/Users/kimjonghyeon/.gradle/daemon/8.7/com.aecpple.aecpple.app-debug-34:/layout_item_recyclerview_sportlist.xml.flat",
+        "source": "/Users/kimjonghyeon/.gradle/daemon/8.7/com.aecpple.aecpple.app-main-36:/layout/item_recyclerview_sportlist.xml"
+    },
+    {
+        "merged": "/Users/kimjonghyeon/.gradle/daemon/8.7/com.aecpple.aecpple.app-debug-34:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/kimjonghyeon/.gradle/daemon/8.7/com.aecpple.aecpple.app-main-36:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.aecpple.aecpple.app-debug-34:/mipmap-xxhdpi_fitforyou.webp.flat",
+        "source": "com.aecpple.aecpple.app-main-36:/mipmap-xxhdpi/fitforyou.webp"
+    },
+    {
+        "merged": "/Users/kimjonghyeon/.gradle/daemon/8.7/com.aecpple.aecpple.app-debug-34:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/kimjonghyeon/.gradle/daemon/8.7/com.aecpple.aecpple.app-main-36:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.aecpple.aecpple.app-debug-34:/mipmap-xhdpi_fitforyou_foreground.webp.flat",
+        "source": "com.aecpple.aecpple.app-main-36:/mipmap-xhdpi/fitforyou_foreground.webp"
+    },
+    {
+        "merged": "/Users/kimjonghyeon/.gradle/daemon/8.7/com.aecpple.aecpple.app-debug-34:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "/Users/kimjonghyeon/.gradle/daemon/8.7/com.aecpple.aecpple.app-main-36:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/kimjonghyeon/.gradle/daemon/8.7/com.aecpple.aecpple.app-debug-34:/menu_menu_bottom_nav.xml.flat",
+        "source": "/Users/kimjonghyeon/.gradle/daemon/8.7/com.aecpple.aecpple.app-main-36:/menu/menu_bottom_nav.xml"
+    },
+    {
+        "merged": "com.aecpple.aecpple.app-debug-34:/mipmap-hdpi_fitforyou_foreground.webp.flat",
+        "source": "com.aecpple.aecpple.app-main-36:/mipmap-hdpi/fitforyou_foreground.webp"
+    },
+    {
+        "merged": "/Users/kimjonghyeon/.gradle/daemon/8.7/com.aecpple.aecpple.app-debug-34:/drawable_maps_and_flags__2_.png.flat",
+        "source": "/Users/kimjonghyeon/.gradle/daemon/8.7/com.aecpple.aecpple.app-main-36:/drawable/maps_and_flags__2_.png"
+    },
+    {
+        "merged": "/Users/kimjonghyeon/.gradle/daemon/8.7/com.aecpple.aecpple.app-debug-34:/layout_activity_register.xml.flat",
+        "source": "/Users/kimjonghyeon/.gradle/daemon/8.7/com.aecpple.aecpple.app-main-36:/layout/activity_register.xml"
+    },
+    {
+        "merged": "com.aecpple.aecpple.app-debug-34:/mipmap-hdpi_fitforyou.webp.flat",
+        "source": "com.aecpple.aecpple.app-main-36:/mipmap-hdpi/fitforyou.webp"
+    },
+    {
+        "merged": "/Users/kimjonghyeon/.gradle/daemon/8.7/com.aecpple.aecpple.app-debug-34:/layout_activity_find_idactivity.xml.flat",
+        "source": "/Users/kimjonghyeon/.gradle/daemon/8.7/com.aecpple.aecpple.app-main-36:/layout/activity_find_idactivity.xml"
+    },
+    {
+        "merged": "/Users/kimjonghyeon/.gradle/daemon/8.7/com.aecpple.aecpple.app-debug-34:/drawable_maps_and_flags__1_.png.flat",
+        "source": "/Users/kimjonghyeon/.gradle/daemon/8.7/com.aecpple.aecpple.app-main-36:/drawable/maps_and_flags__1_.png"
+    },
+    {
+        "merged": "/Users/kimjonghyeon/.gradle/daemon/8.7/com.aecpple.aecpple.app-debug-34:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "/Users/kimjonghyeon/.gradle/daemon/8.7/com.aecpple.aecpple.app-main-36:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.aecpple.aecpple.app-debug-34:/mipmap-xxhdpi_fitforyou_round.webp.flat",
+        "source": "com.aecpple.aecpple.app-main-36:/mipmap-xxhdpi/fitforyou_round.webp"
+    },
+    {
+        "merged": "/Users/kimjonghyeon/.gradle/daemon/8.7/com.aecpple.aecpple.app-debug-34:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/kimjonghyeon/.gradle/daemon/8.7/com.aecpple.aecpple.app-main-36:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/kimjonghyeon/.gradle/daemon/8.7/com.aecpple.aecpple.app-debug-34:/layout_activity_fitnessinfo.xml.flat",
+        "source": "/Users/kimjonghyeon/.gradle/daemon/8.7/com.aecpple.aecpple.app-main-36:/layout/activity_fitnessinfo.xml"
+    },
+    {
+        "merged": "com.aecpple.aecpple.app-debug-34:/mipmap-anydpi-v26_fitforyou_round.xml.flat",
+        "source": "com.aecpple.aecpple.app-main-36:/mipmap-anydpi-v26/fitforyou_round.xml"
+    },
+    {
+        "merged": "com.aecpple.aecpple.app-debug-34:/mipmap-mdpi_fitforyou_round.webp.flat",
+        "source": "com.aecpple.aecpple.app-main-36:/mipmap-mdpi/fitforyou_round.webp"
+    },
+    {
+        "merged": "/Users/kimjonghyeon/.gradle/daemon/8.7/com.aecpple.aecpple.app-debug-34:/drawable_list.xml.flat",
+        "source": "/Users/kimjonghyeon/.gradle/daemon/8.7/com.aecpple.aecpple.app-main-36:/drawable/list.xml"
+    },
+    {
+        "merged": "com.aecpple.aecpple.app-debug-34:/mipmap-mdpi_fitforyou.webp.flat",
+        "source": "com.aecpple.aecpple.app-main-36:/mipmap-mdpi/fitforyou.webp"
+    },
+    {
+        "merged": "com.aecpple.aecpple.app-debug-34:/mipmap-xhdpi_fitforyou_round.webp.flat",
+        "source": "com.aecpple.aecpple.app-main-36:/mipmap-xhdpi/fitforyou_round.webp"
+    },
+    {
+        "merged": "/Users/kimjonghyeon/.gradle/daemon/8.7/com.aecpple.aecpple.app-debug-34:/drawable_maps_and_flags.png.flat",
+        "source": "/Users/kimjonghyeon/.gradle/daemon/8.7/com.aecpple.aecpple.app-main-36:/drawable/maps_and_flags.png"
+    },
+    {
+        "merged": "/Users/kimjonghyeon/.gradle/daemon/8.7/com.aecpple.aecpple.app-debug-34:/drawable_home.xml.flat",
+        "source": "/Users/kimjonghyeon/.gradle/daemon/8.7/com.aecpple.aecpple.app-main-36:/drawable/home.xml"
+    }
+]

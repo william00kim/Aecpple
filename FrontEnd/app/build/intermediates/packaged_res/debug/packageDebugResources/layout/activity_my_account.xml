@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyAccountActivity">
+
+    <!--내정보 전체 레이아웃-->
+    <LinearLayout
+        android:id="@+id/LL_account"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <!--내정보 텍스트-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            android:background="#46B1E1"
+            android:gravity="center_vertical"
+            android:text="내정보"
+            android:paddingLeft="30dp"
+            android:textColor="#F5F5F5"
+            android:textSize="24dp"
+            tools:ignore="MissingConstraints" />
+
+        <!--회원별 아이디 보기창 (길이355)-->
+        <TextView
+            android:id="@+id/tv_userid"
+            android:layout_width="355dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="27dp"
+            android:background="@drawable/buttno2_all_round"
+            android:paddingLeft="15dp"
+            android:textColor="#F5F5F5"
+            android:gravity="center_vertical"
+            android:text="ABCid"
+            android:textSize="20dp" />
+
+        <!--회원별 이름 보기창 (총길이 355)  -->
+        <TextView
+            android:id="@+id/tv_username"
+            android:layout_width="355dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="27dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/buttno2_all_round"
+            android:paddingLeft="15dp"
+            android:textColor="#F5F5F5"
+            android:gravity="center_vertical"
+            android:text="ABCpw"
+            android:textSize="20dp" />
+
+        <!--회붱별 생년월일 보기창(총길이 315)  -->
+        <TextView
+            android:id="@+id/tv_userbirth"
+            android:layout_width="355dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="27dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/buttno2_all_round"
+            android:paddingLeft="15dp"
+            android:textColor="#F5F5F5"
+            android:gravity="center_vertical"
+            android:text="ABCbirth"
+            android:textSize="20dp" />
+
+        <!--장애 여부 선택 창-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="27dp">
+            <TextView
+                android:layout_marginTop="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="장애 비장애 여부 :"
+                android:layout_marginLeft="10dp"
+                android:textColor="#000000"
+                android:textSize="17dp"/>
+            <!--장애 여부 불러오기 빈칸(자바로 불러올 것)-->
+            <TextView
+                android:id="@+id/tv_handicap"
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textColor="#000000"
+                android:textSize="17dp"/>
+        </LinearLayout>
+
+        <!--뒤로가기(하단) 버튼1(레이아웃)-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="bottom">
+
+            <Button
+                android:id="@+id/btn_goback"
+                android:layout_width="match_parent"
+                android:layout_height="85dp"
+                android:background="#46B1E1"
+                android:gravity="center_vertical"
+                android:text="뒤로가기"
+                android:paddingLeft="50dp"
+                android:textColor="#E2F5F5F5"
+                android:textSize="20dp"
+                tools:ignore="MissingConstraints" />
+        </LinearLayout>
+
+    <!--전체 레이아웃 종료-->
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

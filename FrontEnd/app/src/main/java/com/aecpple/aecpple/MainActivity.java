@@ -92,7 +92,7 @@ public class MainActivity extends AppCompatActivity {
                         intent.putExtra("ID", USER_ID);
                         startActivity(intent);
                         finish();
-                    } else if(data.equals("로그인 실패.")) {
+                    } else {
                         Toast.makeText(MainActivity.this, "아이디, 비밀번호를 확인하세요", Toast.LENGTH_SHORT).show();
                     }
                 } else {

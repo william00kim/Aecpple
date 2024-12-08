@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">FitForYou</string>
+    <style name="Base.Theme.Aecpple" parent="Theme.AppCompat.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="CustomDatePickerTheme" parent="Theme.MaterialComponents.DayNight.Dialog">
+        <item name="colorPrimary">#46B1E1</item>
+        <item name="colorPrimaryVariant">#46B1E1</item>
+        <item name="colorOnPrimary">#F5F5F5</item>
+        <item name="android:datePickerMode">calendar</item>
+    </style>
+    <style name="Theme.Aecpple" parent="Base.Theme.Aecpple"/>
+</resources>

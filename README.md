@@ -28,3 +28,5 @@
 <img src="https://github.com/user-attachments/assets/0ee3f82c-ac8b-499e-b76f-1bece611c637"  width="230" height="500"/> <img src="https://github.com/user-attachments/assets/26eb9481-b1eb-49a9-a3e4-46e2dd02c4df"  width="230" height="500"/> <img src="https://github.com/user-attachments/assets/1d881218-69e6-40a4-b338-60842c731fda"  width="230" height="500"/>
 
 <img src="https://github.com/user-attachments/assets/b06f5e81-483c-4a3c-8b24-fb2fea243a9b"  width="230" height="500"/> <img src="https://github.com/user-attachments/assets/f041116d-adc8-4303-bf17-720064f2cbbb"  width="230" height="500"/> 
+
+--> 현재 서버가 닫혀있어 어플리케이션 이용이 불가합니다.
